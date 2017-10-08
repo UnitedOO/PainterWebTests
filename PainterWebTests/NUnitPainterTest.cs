@@ -53,5 +53,12 @@ namespace PainterWebTests
         {
             Assert.AreEqual(true, PainterPage[webElement].Displayed);
         }
+
+        //[TestCase("SimpleFigureBtn")]
+        //public void SimpleFigureBtnClickTest(string webElement)
+        //{
+        //    PainterPage[webElement].Click();
+
+        //}
     }
 }
